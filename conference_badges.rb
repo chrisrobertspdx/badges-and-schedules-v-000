@@ -13,3 +13,12 @@ def assign_rooms(nameArr)
     "Hello, #{e}! You'll be assigned to room #{i+1}"
   end
 end
+
+def printer(nameArr)
+  batch_badge_creator(nameArr).each do |e|
+    puts e
+  end
+  assign_rooms(nameArr).each do |e|
+    puts e
+  end
+end
